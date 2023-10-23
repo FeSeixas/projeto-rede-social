@@ -46,3 +46,34 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+
+#redsoc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: right;
+}
+
+#redsoc img{
+    width: 50px;
+    height: 50px;
+
+    margin-top: 10px;
+    margin-right:10px;
+
+    border-radius: 50%;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+
+    box-sizing: border-box; /* faz com que a borda do hover faça parte da caixa*/
+
+   
+}
+
+#redsoc img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-5px, -5px); /* faz com que os botões andem para cima e esquerda*/
+    box-shadow: 55px 5px 10px rgba(0, 0, 0, 0.363);
+    transition: transform .3s;
+}
