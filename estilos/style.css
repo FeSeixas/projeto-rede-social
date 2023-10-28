@@ -1,4 +1,4 @@
-@charset "UTF-80";
+@charset "UTF-8";
 
 * {
     padding: 0px;
@@ -13,7 +13,7 @@ html, body{
 }
 
 body{
-    background: url('imagens/fundo-madeira.jpg') no-repeat top center ;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center ;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -34,7 +34,7 @@ main {
     width: 311px; 
     background-color: blue;
 
-    background: url('imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png');
 }
 
 iframe#tela{
@@ -43,7 +43,7 @@ iframe#tela{
     top: 80px;
     left: 22px;
 
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
